@@ -1,9 +1,9 @@
 ---
-name: python-code-organization
-description: Use when deciding where code lives — class vs function vs module, designing Protocols for polymorphism, organizing dependency injection without a framework, applying SOLID principles in Python-native ways, choosing composition over inheritance, deciding when to split a module or merge two.
+name: python-code-architecture
+description: Use when deciding where code lives — class vs function vs module, designing Protocols for polymorphism, organizing dependency injection without a framework, applying SOLID principles in Python-native ways, choosing composition over inheritance, deciding when to split a module or merge two. Counterpart to `pythonic-style` (which covers statement-level idioms).
 ---
 
-# python-code-organization
+# python-code-architecture
 
 ## When to use this skill
 

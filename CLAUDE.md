@@ -133,6 +133,7 @@ For deeper guidance on a topic, invoke the matching skill. CLAUDE.md keeps the r
 
 | Topic | Skill |
 |---|---|
+| Statement-level Pythonic idioms vs Java-style | `pythonic-style` |
 | Configuration, env, settings, feature flags | `python-configuration` |
 | Tooling, dev workflow, uv/ruff/pyright/just | `python-developer-experience` |
 | Logging, observability, structlog, redaction | `python-logging` |
@@ -140,7 +141,7 @@ For deeper guidance on a topic, invoke the matching skill. CLAUDE.md keeps the r
 | Type system, Protocol, Generic, narrowing | `python-typing` |
 | Tests, pytest, fixtures, real-DB testing | `python-testing` |
 | Async, event loop, TaskGroup, cancellation | `python-concurrency` |
-| Class vs function, Protocols, DI, SOLID-in-Python | `python-code-organization` |
+| Class vs function, Protocols, DI, SOLID-in-Python | `python-code-architecture` |
 | Domain modeling, value objects, services | `python-domain-design` |
 | FastAPI routers, deps, streaming, lifespan | `fastapi-design` |
 | Postgres RLS, tenant scoping, session vars | `postgres-multi-tenant-rls` |

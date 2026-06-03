@@ -157,7 +157,7 @@ If you can't write these for a utility, you don't know if it's worth keeping in-
 - Adding a plugin/registry system for a single plugin. *Why:* future-proofing imagination. Inline; refactor when (if) a second plugin shows up.
 - Matching vendor features one-for-one. *Why:* we chose DIY to defer the vendor; matching it negates the choice.
 - Abstract base classes when one concrete implementation exists. *Why:* "what if we have another implementation" is rarely a real concern. `Protocol` lets you add one later without ABCs.
-- Generic utility names like `utils`, `helpers`, `common`. *Why:* see `python-code-organization`. Name by concept.
+- Generic utility names like `utils`, `helpers`, `common`. *Why:* see `python-code-architecture`. Name by concept.
 - Importing the concrete implementation in another module's code (vs. the Protocol). *Why:* couples callers to the impl. Inject the Protocol; let the wiring layer construct.
 - "Internal" sub-packages (e.g., `lib/durable/_internals/`). *Why:* if one file isn't enough, you're overbuilding. Resist for as long as possible; refactor when truly needed.
 - Adding telemetry inside a utility instead of structured logs that flow to the standard pipeline. *Why:* one telemetry pipeline, not per-utility. See `python-logging` and `python-llm-observability`.
